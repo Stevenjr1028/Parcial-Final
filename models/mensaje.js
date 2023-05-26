@@ -1,12 +1,9 @@
-const {
-    Schema,
-    model
-} = require('mongoose');
+const {Schema, model} = require("mongoose");
 
 const MensajeScheme = Schema({
 
     id: {
-        type: String,
+        type: Number,
         required: true
     },
     nombre: {
